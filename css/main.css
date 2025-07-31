@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ROOT */
+
+:root {
+    --colo01: #04D939;
+    --color02: #03A63C;
+    --color03: #02732A;
+    --color04: #261E1E;
+    --color05: #F2F2F2;
+
+    --fonttitle: ;
+    --fontemphasis: ;
+    --fontmain: ;
+    --minorfont: ;
+}
+
+/* FONTS */
+
+
+
+/* TAGS */
+
+h1 {
+    font-size: 5em;
+}
+
+/* BOXES > TAGS */
+
+
+
+/* BOXES */
+
+body {
+    height: 100vh;
+    background-color: var(--color04);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--colo01), var(--color03));
+    color: white;
+
+    text-align: center;
+
+    height: 150px;
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--color03);
+}
+
+section {
+    background-color: lightgray;
+    background-image: url(../images/mm..food.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+
+    color: #000000;
+    text-align: center;
+    
+    box-shadow: inset 5px 5px 12px;
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+main {
+    background-color: var(--color02);
+
+    margin: 20px;
+    padding: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
