@@ -22,13 +22,17 @@
 
 /* FONTS */
 
-
+@font-face {
+    font-family: 'Glitching';
+    src: url(../fonts/GlitchingDemoRegular.ttf), format(truetype);
+}
 
 /* TAGS */
 
 h1 {
     font-size: 8em;
     font-family: var(--fonttitle);
+    font-weight: normal;
 }
 
 /* BOXES > TAGS */
@@ -48,7 +52,7 @@ header {
 
     text-align: center;
 
-    height: 150px;
+    height: 100px;
     padding: 20px;
 }
 
@@ -60,6 +64,7 @@ section {
     background-color: lightgray;
     background-image: url(../images/mm..food.jpg);
     background-position: center center;
+    background-size: cover;
     background-attachment: fixed;
 
     color: #000000;
