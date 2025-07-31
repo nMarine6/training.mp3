@@ -14,7 +14,7 @@
     --color04: #261E1E;
     --color05: #F2F2F2;
 
-    --fonttitle: ;
+    --fonttitle: 'Glitching';
     --fontemphasis: ;
     --fontmain: ;
     --minorfont: ;
@@ -27,7 +27,8 @@
 /* TAGS */
 
 h1 {
-    font-size: 5em;
+    font-size: 8em;
+    font-family: var(--fonttitle);
 }
 
 /* BOXES > TAGS */
