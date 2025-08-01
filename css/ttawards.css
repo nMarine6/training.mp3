@@ -8,11 +8,11 @@
 /* ROOT */
 
 :root {
-    --colo01: #04D939;
-    --color02: #03A63C;
-    --color03: #02732A;
-    --color04: #261E1E;
-    --color05: #F2F2F2;
+    --colo01: #F2E85E;
+    --color02: #F2C84B;
+    --color03: #D98218;
+    --color04: #732103;
+    --color05: #E8B015;
 
     --fonttitle: 'Glitching', Arial, Helvetica, sans-serif;
     --fontemphasis: 'Minecraft Font', Arial, Helvetica, sans-serif;
