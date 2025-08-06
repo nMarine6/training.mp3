@@ -16,7 +16,6 @@
 
     --fonttitle: 'Glitching', Arial, Helvetica, sans-serif;
     --fontemphasis: 'Minecraft Font', Arial, Helvetica, sans-serif;
-    --fontemphasis2: 'Bohemian TW', Arial, Helvetica, sans-serif;
     --fontmain: 'Kenyan Coffe Rg', Arial, Helvetica, sans-serif;
     --minorfont: ;
 }
@@ -38,10 +37,6 @@
     src: url(../fonts/Kenyan\ Coffee\ Rg.otf), format(opentype);
 }
 
-@font-face {
-    font-family: 'Bohemian TW';
-    src: url(../fonts/Bohemian\ Typewriter.ttf);
-}
 /* TAGS */
 
 h1 {
@@ -55,7 +50,7 @@ h2 {
 }
 
 h3 {
-    font-family: var(--fontemphasis2);
+    font-family: var(--fontemphasis);
 }
 
 p {
