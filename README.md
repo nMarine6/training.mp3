@@ -8,3 +8,5 @@ Now Playing
 <p style="padding-left: 20px;">
 ⇆ㅤ ㅤ◁ㅤ ❚❚ ㅤ▷ ㅤㅤ↻﻿
 </p>
+
+<a href="https://nmarine6.github.io/training.mp3/marines-space/site/nerd-bullshit/shinyhunts.html">Amateur Shiny Hunter</a>
