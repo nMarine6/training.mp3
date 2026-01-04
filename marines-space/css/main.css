@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* FONTs */
+@font-face {
+    font-family: 'Alagard';
+    src: url(../fonts/alagard.ttf), format(truetype);
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../fonts/Minecraft.ttf), format(truetype);
+}
+@font-face {
+    font-family: 'Pixeled'; 
+    src: url(../fonts/Pixeled.ttf), format(truetype);
+}
+@font-face {
+    font-family: 'Cracked Concrete';
+    src: url(../fonts/CrackedConcrete/CrackedConcrete.otf), format(opentype);
+}
+
+/* ROOT */
+:root {
+    --fontpixel: 'Pixeled';
+    --fontconc: 'Cracked Concrete';
+    --fontalag: 'Alagard';
+    --fontmine: 'Minecraft';
+
+    --color1: #732751;
+    --color2: #392359;
+    --color3: #432D73;
+    --color4: #F2CDA0;
+    --color5: #F2A9A2;
+}
+/* TAGs */
+h1 {
+    font-size: 6em;
+    font-family: var(--fontconc);
+    font-weight: normal;
+    color: white;
+}
+
+a {
+    font-family: var(--fontalag);
+    text-decoration: none;
+    color: white;
+}
+
+/* BOXs */
+header {
+    background-color: var(--color3);
+    text-align: center;
+}
+
+nav {
+    background-color: var(--color2);
+    font-size: 2em;
+    padding: 5px;
+    color: white;
+}

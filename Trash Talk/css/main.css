@@ -26,12 +26,10 @@
     font-family: 'Glitching';
     src: url(../fonts/GlitchingDemoRegular.ttf), format(truetype);
 }
-
 @font-face {
     font-family: 'Minecraft Font';
     src: url(../fonts/Minecraft.ttf), format(truetype);
 }
-
 @font-face {
     font-family: 'Kenyan Coffe Rg';
     src: url(../fonts/Kenyan\ Coffee\ Rg.otf), format(opentype);
