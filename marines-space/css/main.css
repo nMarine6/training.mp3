@@ -60,5 +60,12 @@ nav {
     background-color: var(--color2);
     font-size: 2em;
     padding: 5px;
-    color: white;
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+
+    background-color: var(--color4);
+    border-radius: 2px;
 }
