@@ -44,12 +44,41 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-family: var(--fontmine);
+}
+
 a {
     font-family: var(--fontalag);
     text-decoration: none;
+}
+
+p {
+    font-family: var(--fontalag);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* TAGs > BOXs */
+nav a {
     color: white;
 }
 
+main p {
+    font-size: 1.5em;
+    text-indent: 4em;
+
+    padding: 20px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+main h2 {
+    font-size: 2em;
+    text-indent: 2em;
+}
 /* BOXs */
 header {
     background-color: var(--color3);
@@ -62,10 +91,36 @@ nav {
     padding: 5px;
 }
 
+section {
+    background-color: lightgray;
+    background-image: url(../images/farewell.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: #000000;
+    text-align: center;
+    
+    box-shadow: inset 5px 5px 12px;
+
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
 main {
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
 
     background-color: var(--color4);
-    border-radius: 2px;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+
+    font-size: 2em;
+    text-align: center;
+
+    padding: 30px;
 }
